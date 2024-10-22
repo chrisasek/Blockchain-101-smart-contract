@@ -1,0 +1,23 @@
+{
+  "name": "inbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "dotenv": "^16.4.5",
+    "ganache-cli": "^6.12.2",
+    "hardhat": "^2.22.13",
+    "mocha": "^10.7.3",
+    "solc": "^0.8.28",
+    "web3": "^4.13.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
